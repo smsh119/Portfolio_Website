@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: linear-gradient(#f6eede, #ffffff);
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.go_to_top_btn {
+    /* top: 500px; */
+    bottom: 20px;
+    right: 20px;
+    float: right;
+    clear: both;
+    position: fixed;
+    z-index: 15;
+    font-size: 35px;
+    color: white;
+    background: #a0b0ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+header {
+}
+.header_wrap {
+    display: flex;
+    margin-top: 20px;
+}
+.logo {
+    width: 80px;
+}
+.logo a {
+}
+.logo a img {
+    width: 100%;
+}
+
+.header_wrap nav {
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.header_wrap nav .checkbtn {
+    font-size: 30px;
+    color: #3150dd;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+.header_wrap nav ul {
+}
+.header_wrap nav ul li {
+    display: inline;
+}
+.header_wrap nav ul li a {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #2245e6;
+}
+.header_wrap nav ul li a:hover {
+    color: black;
+}
+
+/* Modal css */
+.custom_modal {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+
+.description {
+}
+.description .des_wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+.description .des_wrapper .des {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    margin-top: 200px;
+    display: block;
+    padding: 0px 20px;
+}
+.description .des_wrapper .des h1 {
+    font-size: 70px;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+}
+.description .des_wrapper .des h3 {
+    font-weight: 600;
+}
+.description .des_wrapper .des p {
+    text-align: justify;
+    color: #6984ff;
+}
+.description .des_wrapper .des button {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background: #6984ff;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    outline: none;
+}
+.description .des_wrapper .des button:hover {
+    background: #385cfa;
+}
+.description .des_wrapper .image {
+    position: relative;
+    width: 700px;
+    float: right;
+}
+
+.description .des_wrapper .image img {
+    width: 100%;
+}
+
+.education_sec {
+    clear: both;
+}
+.education_sec .education {
+    margin-top: 80px;
+
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.education_sec .education h1 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.education_sec .education .edu_row {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.education_sec .education .edu_row .bsc,
+.hsc,
+.ssc,
+.jsc,
+.psc {
+    text-shadow: 2px 1px 5px grey;
+}
+.education_sec .education .edu_row h2 {
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+}
+.education_sec .education .edu_row hr {
+    width: 300px;
+    background: #3150dd;
+    padding: 1px;
+}
+.education_sec .education .edu_row p {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1px;
+}
+
+.skills_sec {
+    margin-top: 100px;
+    background: #d4dbff;
+    padding: 170px 0px;
+}
+.skills_sec h1 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 50px;
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+.skills_row {
+}
+.skills_col {
+    margin-bottom: 40px;
+}
+.skill_name {
+    color: #001eb1;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+}
+.barBG {
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    background: #a0b0ff;
+    float: right;
+    position: relative;
+}
+
+.barBG .bar {
+    position: absolute;
+
+    height: 100%;
+    background: #001eb1;
+}
+
+.bar_cp {
+    width: 65%;
+}
+.bar_photoshop {
+    width: 80%;
+}
+.bar_problem_solving {
+    width: 80%;
+}
+.bar_illustrator {
+    width: 75%;
+}
+.bar_c {
+    width: 80%;
+}
+.bar_video_editing {
+    width: 50%;
+}
+.bar_cpp {
+    width: 80%;
+}
+.bar_typing_speed {
+    width: 60%;
+}
+.bar_unity {
+    width: 70%;
+}
+.bar_communication_skills {
+    width: 70%;
+}
+.bar_csharp {
+    width: 65%;
+}
+.bar_english {
+    width: 70%;
+}
+.bar_html {
+    width: 80%;
+}
+.bar_css {
+    width: 80%;
+}
+.bar_bootstrap {
+    width: 50%;
+}
+.bar_wordpress {
+    width: 40%;
+}
+
+.project_sec {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.project_sec h1 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.projects {
+    text-align: center;
+}
+.project_row {
+}
+.project_col {
+    margin-bottom: 60px;
+}
+.project_col h3 {
+    font-weight: 600;
+    color: #4d6aff;
+    text-shadow: 0px 2px 2px rgb(59, 59, 59);
+    font-size: 25px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.project_col h6 {
+    color: black;
+    margin-top: 10px;
+    text-transform: none;
+    font-size: 15px;
+}
+.project_col a {
+    background: #6984ff;
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.project_col a:hover {
+    background: #385cfa;
+}
+.project_col img {
+    width: 100%;
+}
+
+.portfolio_sec {
+    margin-top: 50px;
+    background: #d4dbff;
+    padding: 160px 0px;
+}
+.portfolio_sec h1 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.portfolio {
+    text-align: center;
+}
+.portfolio_row {
+}
+.portfolio_col {
+    margin-bottom: 50px;
+}
+
+.portfolio_col h3 {
+    font-weight: 600;
+    color: #4d6aff;
+    text-shadow: 0px 2px 2px rgb(59, 59, 59);
+    font-size: 25px;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.portfolio_col h6 {
+    color: black;
+    margin-top: 10px;
+    text-transform: none;
+    font-size: 15px;
+}
+.portfolio_col img {
+    width: 100%;
+}
+
+.portfolio_col img:hover {
+    border: 3px solid rgba(98, 98, 238, 0.774);
+}
+
+.contact_sec {
+    padding: 80px 0px;
+}
+.contact {
+    text-align: center;
+}
+.contact h1 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.contact .social {
+    margin-bottom: 70px;
+}
+.contact .social ul {
+}
+.contact .social ul li {
+    display: inline;
+}
+.contact .social ul li a {
+    font-size: 35px;
+    padding: 0 10px;
+    color: black;
+}
+.contact .social ul li a:hover {
+    color: #4d6aff;
+}
+
+.contact .profile_links {
+}
+.contact .profile_links h2 {
+    font-family: "Kaushan Script", cursive;
+    color: #3150dd;
+    text-shadow: 2px 5px 5px grey;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.contact .profile_links ul {
+    list-style-type: none;
+}
+.contact .profile_links ul li {
+}
+.contact .profile_links ul li a {
+}
+.footer_sec {
+    padding-top: 15px;
+    border-top: 2px solid rgb(200, 200, 200);
+}
+.footer_sec p {
+    text-align: center;
+    color: #4d6aff;
+    /* background: #e3e9ff; */
+}
+
+/* 
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+*/
